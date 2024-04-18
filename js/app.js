@@ -61,8 +61,6 @@ const showData = () => {
       urlContainer.innerHTML = `URL: <span class="main__profile-value">${res.data.html_url}</span>`;
 
       followers.innerHTML = `Followers: <span class="main__profile-value">${res.data.followers}</span>`;
-    } else {
-      notFound.innerHTML = `Sorry This User Is Not Found!`;
     }
   });
 };
